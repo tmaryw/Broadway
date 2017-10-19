@@ -1,22 +1,22 @@
 * {
   font-family: Helvetica, sans-serif;
-  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
 }
 
 h1 {
   font-size: 70px;
-  font-weight: bold;
   color: white;
 }
 
 h2 {
   font-size: 32px;
-  font-weight: bold;
 }
 
 h3 {
   font-size: 23px;
-  font-weight: bold;
 }
 
 .btn-nav {
@@ -24,13 +24,11 @@ h3 {
   color: white;
 }
 
+.supporting {
+  text-align: center;
+}
 .supporting p{
   font-size: 14px;
-}
-
-.fake-links {
-  font-size: 18px;
-  color: white;
 }
 
 #flatiron {
@@ -43,4 +41,5 @@ h3 {
   background-color: dimgray;
   font-size: 11px;
   color: white;
+  text-align: left;
 }
